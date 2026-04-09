@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diyabet Takip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>Hoşgeldiniz, Kullanıcı</h2>
+    <p id="date"></p>
+  </header>
+
+  <main>
+    <div class="progress-circle">
+      <p><span id="carbTotal">0</span>g / <span id="carbGoal">150</span>g karbonhidrat</p>
+    </div>
+
+    <div class="summary">
+      <div><strong id="carbRemaining">150</strong>g Kalan</div>
+      <div><strong id="glucose">—</strong> mg/dL</div>
+      <div><strong id="mealCount">0</strong> Öğün</div>
+    </div>
+
+    <section class="meals">
+      <h3>Bugünün Öğünleri</h3>
+      <p>Henüz öğün eklemediniz</p>
+    </section>
+  </main>
+
+  <button class="add-meal">+</button>
+
+  <nav class="bottom-nav">
+    <a href="#">Ana Sayfa</a>
+    <a href="#">Takvim</a>
+    <a href="#">Geçmiş</a>
+    <a href="#">Ayarlar</a>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
